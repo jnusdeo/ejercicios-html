@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f38c17;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -17px;
+}
+#tarjeta {
+    background-color: rgb(255, 224, 85);
+    border: 1.5px solid rgb(59, 59, 59); 
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-end;
+    position: relative;
+}
+main #descrip {
+    background-color: #f38c17;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: smaller;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    background-color: rgb(255, 224, 85);
+    max-height: 300px;
+    
+}
+

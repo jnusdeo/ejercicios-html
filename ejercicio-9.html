@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejerciio 9</title>
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Creá tu cuenta</h1>
+    <main>
+    <form action="http://static.altcooperativa.com/forms/">
+        <label>Nombre: <br>
+            <input type="text" class="caja-input" name="user-name" placeholder="Escribí tu nombre.." required><br><br>
+        </label>
+        <label>Apellido: <br>
+            <input type="text" class="caja-input" name="user-last-name" placeholder="Escribí tu apellido.." required><br><br>
+        </label>
+        <label>E-mail: <br>
+            <input type= "email" class="caja-input" name="email" placeholder="tuemail@mail.com" required><br><br>
+        </label>
+        <label>Fecha de nacimiento: <br> 
+            <input type= "date" class="caja-input" name="fecha-de-nacimiento"> <br><br>
+        </label>
+        <label>¿Querés recibir notificaciones por mail?<br> <br>
+        </label>
+        <label>
+            <input type="radio" name="recibir-por-mail" value="Sí" checked>Sí<br>
+        </label>
+        <label>
+            <input type="radio" name="recibir-por-mail" value="No">No<br><br>
+        </label>
+        <label>Disco de Virus para antes de salir:</label> 
+        <br><br>
+        <label>
+            <input type="checkbox" name="disco-de-virus[]" value="Agujero Interior">Agujero Interior
+            <br>
+        </label>
+        <label>
+            <input type="checkbox" name="disco-de-virus[]" value="Relax">Relax
+            <br>
+        </label>
+        <label>
+            <input type="checkbox" name="disco-de-virus[]" value="Locura">Locura
+            <br>
+        </label>  
+        <label>
+            <input type="checkbox" name="disco-de-virus[]" value="Superficies de Placer">Superficies de Placer
+            <br><br>
+        </label>
+        <label>Herramienta para llevar encima:
+            <select name="herramienta" class="caja-input">
+                <option value="destornillador y alicate">destornillador y alicate</option>
+                <option value="cutter y pinza">cutter y pinza de punta</option>
+                <option value="destapador">destapador con sacacorcho</option>
+            </select> <br><br>
+        </label>
+        <label> Comentarios <br>
+            <textarea name="Comentarios" class="caja-input" cols="50" rows="6" maxlength="50%"></textarea> <br><br>
+        </label>
+        <label>
+            <input type="checkbox" name="acepto" value="acepto" required> Acepto términos y condiciones <br><br>
+        </label>
+        <input type="submit" id="boton" value="Crear cuenta">
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body{
+    font-family: 'Zen Loop', cursive, monospace;
+    color: rgb(0, 0, 0);
+}
+h1 {
+    text-align: center;
+}
+form {
+    background-color: #8a2be25c;
+    width: 50%;
+    margin: auto;
+    border: 3px solid #39f704;
+    border-radius: 5px 25px;
+    padding: 10px;
+}
+
+main form .caja-input {
+    min-height: 20px;
+    border-radius: 3px;
+}
+main form #boton {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(116 146 181);
+}
